@@ -1,0 +1,73 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Fixed header styling */
+.header {
+    background-color: #3498db; /* Blue */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for sidebar and content */
+.container {
+    display: flex;
+    margin-top: 70px; /* Offset for the fixed header */
+}
+
+/* Sidebar styling */
+.sidebar {
+    background-color: #ecf0f1; /* Light gray */
+    width: 250px;
+    height: calc(100vh - 70px); /* Full height minus header */
+    overflow: auto; /* Scrollable sidebar */
+    padding: 20px;
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.3s;
+}
+
+.sidebar a:hover {
+    color: #e74c3c; /* Red on hover */
+}
+
+/* Main content styling */
+.content {
+    flex: 1;
+    padding: 20px;
+    column-count: 2; /* Split content into 2 columns */
+    column-gap: 20px; /* Space between columns */
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    margin-top: 0;
+}

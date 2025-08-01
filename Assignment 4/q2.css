@@ -1,0 +1,46 @@
+Downloads/as4/q2.css */
+
+/* Header styling */
+header {
+    background-color: #4CAF50; /* Hexadecimal color */
+    color: white; /* Named color */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Body styling */
+body {
+    background-color: rgb(240, 240, 240); /* RGB color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Button styling */
+button {
+    background-color: rgba(255, 69, 0, 0.8); /* RGBA color with transparency */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px auto;
+    display: block;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: rgba(255, 69, 0, 1); /* Remove transparency on hover */
+}
+
+/* Footer styling */
+footer {
+    background-color: navy; /* Named color */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

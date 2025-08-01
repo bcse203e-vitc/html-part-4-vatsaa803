@@ -1,0 +1,74 @@
+/* General body styling */
+body {
+    font-family: 'Roboto', sans-serif; /* Google Web Font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+/* Header with gradient background */
+.header {
+    background: linear-gradient(135deg, #3498db, #9b59b6); /* Gradient background */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow */
+}
+
+/* About section */
+.about {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Gallery section */
+.gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery .images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 0.8; /* Partially transparent images */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    opacity: 1; /* Fully opaque on hover */
+}
+
+/* Footer with button */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ecf0f1;
+}
+
+.btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow */
+    letter-spacing: 1px; /* Letter spacing */
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #c0392b;
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}

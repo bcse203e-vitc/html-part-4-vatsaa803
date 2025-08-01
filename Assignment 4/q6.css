@@ -1,0 +1,64 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; 
+    height: 200vh; 
+}
+
+
+.static-box {
+    background-color: #3498db; /* Blue */
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.fixed-box {
+    background-color: #e74c3c; /* Red */
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 10; /* Ensure it stays on top */
+}
+
+/* Relative container */
+.relative-container {
+    position: relative;
+    background-color: #ecf0f1; /* Light gray */
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+/* Relative box (moves relative to its container) */
+.relative-box {
+    background-color: #2ecc71; /* Green */
+    color: white;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+/* Absolute wrapper */
+.absolute-wrapper {
+    position: relative; /* Acts as the containing block for the absolute box */
+    background-color: #bdc3c7; /* Gray */
+    height: 200px;
+    margin-top: 20px;
+}
+
+/* Absolute box (positioned inside the wrapper) */
+.absolute-box {
+    background-color: #9b59b6; /* Purple */
+    color: white;
+    padding: 20px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}

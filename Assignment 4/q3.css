@@ -1,0 +1,42 @@
+
+#article-title {
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+
+.author-info {
+    font-style: italic;
+    text-align: center;
+    color: #7f8c8d; 
+    margin-bottom: 20px;
+}
+
+
+.content {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #34495e; 
+    margin: 10px 20px;
+}
+
+
+.read-more {
+    background-color: #e74c3c; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+    text-transform: uppercase;
+}
+
+.read-more:hover {
+    background-color: #c0392b; 
+}

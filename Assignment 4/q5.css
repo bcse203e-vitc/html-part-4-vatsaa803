@@ -1,0 +1,50 @@
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Profile card styling */
+.profile-card {
+    background-color: #ffffff; /* White background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+/* Hover effect for the card */
+.profile-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+
+/* Profile image styling */
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 15px;
+    border: 3px solid #3498db; /* Blue border around the image */
+}
+
+/* Profile name styling */
+.profile-name {
+    font-size: 1.5em;
+    color: #2c3e50; /* Dark blue-gray color */
+    margin: 10px 0;
+}
+
+/* Profile job title styling */
+.profile-job {
+    font-size: 1em;
+    color: #7f8c8d; /* Gray color */
+    margin: 0;
+}

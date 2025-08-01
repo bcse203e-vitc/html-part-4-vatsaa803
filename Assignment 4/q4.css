@@ -1,0 +1,31 @@
+
+
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Styling for each box */
+.box {
+    background-color: #ffffff; /* White content area */
+    border: 5px solid #3498db; /* Blue border */
+    padding: 20px; /* Padding inside the border */
+    margin: 20px; /* Margin outside the border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visualization */
+}
+
+/* Heading inside each box */
+.box h2 {
+    margin: 0 0 10px 0; /* Margin below the heading */
+    color: #2c3e50; /* Dark blue-gray color */
+}
+
+/* Paragraph inside each box */
+.box p {
+    margin: 0; /* No margin for paragraphs */
+    color: #34495e; /* Dark gray-blue color */
+    line-height: 1.6; /* Better readability */
+}
